@@ -1,0 +1,27 @@
+# Ignora ambiente virtual
+venv/
+
+# Ignora configurações do PyCharm
+.idea/
+
+# Ignora arquivos e pastas de cache do Python
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+
+# Ignora caches dentro de src/
+src/**/__pycache__/
+src/**/*.py[cod]
+
+# Ignora arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de compilação
+*.egg-info/
+dist/
+build/
