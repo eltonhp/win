@@ -1,8 +1,9 @@
 # 🏆 Award Interval API
 
+
 API para processar dados de produtores vencedores do prêmio Golden Raspberry Awards (Razzie).
 O sistema calcula quais produtores ganharam prêmios consecutivos no menor e no maior intervalo de tempo possível.
----
+
 
 
 
