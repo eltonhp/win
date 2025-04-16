@@ -1,4 +1,4 @@
-# 🏆 Award Interval API
+# 🏆 API de intervalo de premiação
 
 
 API para processar dados de produtores vencedores do prêmio Golden Raspberry Awards (Razzie).
