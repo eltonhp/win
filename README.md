@@ -46,17 +46,17 @@ A resposta esperada no formato:
   "min": [
     {
       "producer": "string",
-      "interval": number,
-      "previousWin": number,
-      "followingWin": number
+      "interval": 0,
+      "previousWin": 0,
+      "followingWin": 0
     }
   ],
   "max": [
     {
       "producer": "string",
-      "interval": number,
-      "previousWin": number,
-      "followingWin": number
+      "interval": 0,
+      "previousWin": 0,
+      "followingWin": 0
     }
   ]
 }
