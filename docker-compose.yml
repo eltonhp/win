@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+
+  win:
+    build:
+      context: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./src:/app/src
+      - ./h2.jar:/app/h2.jar
+
+  test:
+    build:
+      context: .
+    command: sh -c "sleep 20 && pytest tests/integration"
+    environment:
+      - API_BASE_URL=http://win:8081
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./h2.jar:/app/h2.jar
